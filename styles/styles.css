@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Overpass:ital,wght@0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(217, 17%, 81%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+}
+
+body{
+  background-color: var(--Very-Dark-Blue);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.first-container{
+  width: 20rem;
+  padding: 2rem;
+  background-color: var(--Dark-Blue);
+  border-radius: 10px;
+}
+
+.star{
+  width: 3rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: var(--Light-Grey);
+  border: none;
+}
+
+h2{
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.paragraph{
+  margin-top: 1.3rem;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 19px;
+  color: var(--Medium-Grey);
+}
+
+button{
+  width: 3rem;
+  margin-top: 1.3rem;
+  height: 3rem;
+  border-radius: 50px;
+  justify-content: space-between;
+  background-color: var(--Light-Grey);
+  border: none;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Light-Grey);
+}
+
+.submit{
+  width: 16rem;
+  height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: var(--Orange);
+  cursor: pointer;
+  color: var(--White);
+}
+
+.submit:hover{
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+.second-container{
+  width: 20rem;
+  background-color: var(--Dark-Blue);
+  border-radius: 10px;
+}
+
+.thank-you{
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.para1{
+  margin-left: 4rem;
+  margin-top: 1.6rem;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title{
+  margin-left: 4.5rem;
+  margin-top: 1.3rem;
+  font-size: 400;
+}
+
+.para2{
+  margin-left: 1rem;
+  text-align: center;
+  margin-top: 1.4rem;
+  padding-bottom: 2rem;
+  color: var(--Medium-Grey);
+}
+
+.hidden{
+  display: none;
+}
